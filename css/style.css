@@ -1,0 +1,478 @@
+/* nav */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+
+.container-carrusel {
+    display: flex;
+    justify-content: center;
+}
+
+
+.menu {
+    display: flex;
+    justify-content: center; 
+    font-size: 1.25rem;
+    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(51, 70, 110);
+
+}
+
+.banner-uno {
+    width: 18.75rem;
+    height: 19.25rem;
+    background-color: rgb(51, 70, 110);
+}
+
+
+.banner-flex {
+    display: flex;
+    border: 3px solid rgb(51, 70, 110);
+    background-color: rgb(51, 70, 110);
+    
+}
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(51, 70, 110);
+    padding:10px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 1.3rem;
+    padding: 0.625rem;
+    color: black;
+}
+
+.links {
+    display: inline-block;
+    position: relative;
+    font-size: 32px;
+
+}
+
+h1 {
+    margin: 20px;
+}
+
+
+/* index */
+
+.titulo {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1.875;
+    text-align: center;
+    padding: 5rem;
+
+}
+
+.subtitulo {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+    font-size: 1.25rem;
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.temporada{
+    display: flex;
+    justify-content: center;
+    width: 31.25rem;
+    border-style: double;
+    border-width: 0.80rem;
+    border-radius: 0.50rem;
+    margin-left: 2rem;
+    border-color: rgb(47, 63, 99);
+
+}
+
+.main-index {
+    display: flex;
+    justify-content: center;
+
+}
+
+.carrusel{
+    display: flex;
+    justify-content: center;
+   
+
+}
+
+/* footer */
+.piedepagina {
+    font-family: 'Lobster Two', cursive;
+    font-size: 1rem;
+}
+
+.piedepaginafirts {
+    background-color: rgb(51, 70, 110);
+    text-align: left;
+    display: flex;
+/*     flex-wrap: wrap; */
+    justify-content: center;
+
+}
+
+.logoderedes {
+    width: 1.875rem;
+    text-align: center;
+}
+
+
+
+/* catalogo */
+
+
+.imgcatalogo {
+    width: 20rem;
+    border-style: double;
+    border-width: 1rem;
+    margin-left: 2rem;
+    border-color: rgb(47, 63, 99);
+    display: flex;
+    justify-content: center;
+
+}
+
+
+
+.subtitulocatalogo1 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 5rem;
+
+}
+
+.subtitulocatalogo2 {
+
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    width: 5rem;
+    left: 8rem;
+
+}
+
+
+.main-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+
+}
+
+button {
+    display: block;
+
+
+
+}
+
+
+/* contactanos */
+
+
+
+.container-form {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30rem;
+    position: relative ;
+    translate : calc(0%);
+}
+
+.main-container {
+    display: flex;
+/*     flex-wrap: wrap; */
+    justify-content: center;
+    padding: -0.5rem;
+
+
+
+}
+
+.section-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20rem;
+
+}
+
+.container-maps {
+    display: flex;
+    justify-content: right;
+    width: 22rem;
+    height: 19rem;
+    margin-top: 11rem;
+    border-color: black;
+
+
+}
+
+h3 {
+    margin-left: 2rem;
+}
+
+/* Nosotros */
+.titulo-nosotros {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2.5rem;
+    padding: 5rem;
+
+
+}
+
+.parrafo-nosotros {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-size: 2rem;
+
+}
+
+.galeria button {
+    position: relative;
+    left: 150px;
+}
+
+.subtitulocatalogo1,
+.subtitulocatalogo2 {
+    position: relative;
+    left: 150px;
+}
+
+.container-nosotros {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+
+
+}
+
+.img-nosotros {
+    display: flex;
+    justify-content: center;
+}
+
+/* Promos */
+.container-promos {
+    display: flex;
+    justify-content: center;
+
+
+}
+.tablas{
+    font-size:3rem;
+    
+}
+
+/* resonsive  Promos*/@media(max-width: 1200px){
+    .banner-flex {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container-flex {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    
+    }
+
+@media(max-width: 992px){
+    .banner-flex {
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .container-flex {
+        display: flex;
+        justify-content: center;
+    
+    }
+    }
+
+    @media(max-width: 800px){
+        .banner-flex {
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        .container-flex {
+            display: flex;
+            justify-content: center;
+            font-size: 2rem;
+        
+        }
+        }    
+
+@media(max-width: 768px){
+.banner-flex {
+    display: flex;
+    justify-content: center;
+    
+}
+.container-flex {
+    display: flex;
+    justify-content: center;
+    font-size: 50rem;
+}
+
+}
+@media(max-width:420px){
+    .banner-flex {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container-flex {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+
+
+}
+
+@media(max-width:480px){
+    .banner-flex {
+        display: flex;
+        justify-content: center;
+        border-color: rgb(47, 63, 99);
+        
+    }
+    .container-flex {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+
+
+}
+
+@media(max-width:319px){
+    .banner-flex {
+        display: flex;
+        justify-content: center;
+        width: 200px;
+        
+    }
+    .container-flex {
+        display: flex;
+        justify-content: center;
+        font-size: 50rem;
+        
+    }
+    
+
+}
+
+/* Responsive Nosotros */
+
+.container-promos {
+    display: flex;
+    justify-content: center;
+
+
+}
+.tablas{
+    font-size:3rem;
+    
+}
+
+/* responsive  Promos*/
+
+@media(max-width: 618px){
+.banner-flex {
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.container-flex {
+    display: flex;
+    justify-content: center;
+
+}
+
+}
+@media(max-width:568px){
+    .banner-flex {
+        display: flex;
+        justify-content: center;
+        
+    }
+    .container-flex {
+        display: flex;
+        justify-content: center;
+        font-size: 8px;
+    }
+    .container-flex nav ul li a {
+        font-size: 15px;
+    }
+    .container img{
+        max-width: 300px;
+    }
+    .container-form{
+        max-width: 350px;
+        position: relative;
+        left: 25px;
+    }
+    .parrafo-nosotros{
+        max-width: 350px;
+    }
+
+}
+
+@media(max-width:365px){
+    .parrafo-nosotros {
+        display: flex;
+        justify-content: center;
+        font-size: 0.75rem;
+        
+    }
+    .titulo-nosotros {
+        display: flex;
+        justify-content: center;
+    }
+
+    .img-nosotros {
+        display: flex;
+        justify-content: center;
+        
+    }
+    
+
+
+    
+
+}
