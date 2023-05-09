@@ -1,0 +1,52 @@
+/* comienzo del catalogo */
+.titulo {
+    font-family: $fonttitle;
+    font-size: 1.875;
+    text-align: center;
+    padding: 5rem;
+}
+
+.main-flex {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .galeria {
+
+        position: relative;
+        /*         left: 150px; */
+
+        div {
+
+            .subtitulocatalogo1 {
+                font-family: $fonttitle;
+                width:5rem;
+            }
+
+            .imgcatalogo {
+                width: 20rem;
+                border-style: double;
+                border-width: 1rem;
+                margin-left: 2rem;
+                border-color: rgb(47, 63, 99);
+                display: flex;
+                justify-content: center;
+
+            }
+
+            button {}
+        }
+
+        .subtitulocatalogo2 {
+
+            font-family: $fonttitle;
+            width: 5rem;
+            left: 8rem;
+
+        }
+
+    }
+
+
+}

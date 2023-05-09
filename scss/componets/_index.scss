@@ -1,0 +1,66 @@
+@import "../base/vars";
+/* index */
+
+.gradientes {
+
+    background-image:$colorfondobody; 
+
+    div {
+        .titulo {
+            font-family: $fonttitle ;
+            font-size: $sizefonttitle;
+            text-align: center;
+            padding: 5rem;
+            color:black;
+
+        }
+    }
+
+    aside {
+
+        .carrusel {
+            display: flex;
+            justify-content: center;
+
+        }
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        padding: 2rem;
+
+        main {
+
+            div {
+
+                a {
+
+                    .temporada {
+
+                        display: flex;
+                        justify-content: center;
+                        width: $sizeimgtemp;
+                        border-style: double;
+                        border-width: $sizeborder;
+                        border-radius: $borderradius;
+                        margin-left: 2rem;
+                        border-color: $bordercolor;
+
+
+
+                    }
+
+
+                }
+            }
+        }
+
+
+    }
+
+
+
+}
+
+/* fin del index */

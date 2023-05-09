@@ -1,0 +1,53 @@
+/* inicio de nosotros */
+.gradientes{
+
+    background-color: $colorfondobody;
+
+    main{
+
+        div{
+
+            .titulo-nosotros{
+
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                font-family: $fontnostros;
+                font-size: $sizefonttitle;
+                padding: 5rem;
+                color:black;
+            }
+        }
+
+        .container-nosotros{
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding-top: 3rem;
+
+            .parrafo-nosotros{
+
+                display: flex;
+                justify-content: center;
+                font-family: $fontnostros; 
+                font-size: 2rem;
+                color:black;
+
+            }
+
+        }
+
+        .contaner{
+
+            display: flex;
+            justify-content: center;
+            padding: 2rem;
+
+        }
+    }
+
+    
+}
+
+/* fin de nosotros  */
