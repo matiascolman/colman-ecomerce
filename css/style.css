@@ -59,20 +59,30 @@ header .container-flex div nav .links a:hover {
 .main-flex .galeria div .subtitulocatalogo1 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   width: 5rem;
+  color: black;
 }
 .main-flex .galeria div .imgcatalogo {
   width: 20rem;
   border-style: double;
-  border-width: 1rem;
+  border-width: 0.9rem;
+  border-radius: 0.2rem;
   margin-left: 2rem;
-  border-color: rgb(47, 63, 99);
+  border-color: rgb(3, 27, 84);
   display: flex;
   justify-content: center;
+}
+.main-flex .galeria div button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: black;
+  border-width: 5rem;
+  border-color: black;
+  border-radius: 5rem;
 }
 .main-flex .galeria .subtitulocatalogo2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   width: 5rem;
   left: 8rem;
+  color: black;
 }
 
 /* variables */
@@ -208,10 +218,27 @@ button {
   text-align: center;
   padding: 5rem;
 }
-.gradientes .main-container main .container-form {
+.gradientes .main-container main div .container-form {
   display: flex;
   justify-content: center;
+  flex-direction: column;
+  width: 30rem;
+  margin-top: 3rem;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: black;
 }
-/* fin de nosotros */
+.gradientes .main-container main section .container-maps {
+  display: flex;
+  justify-content: center;
+  width: 22rem;
+  height: 19rem;
+  margin: 10rem;
+  border-color: black;
+}
+.gradientes .main-container main section .fontdirection {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+/* fin de conctactanos */
 
 /*# sourceMappingURL=style.css.map */

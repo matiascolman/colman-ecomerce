@@ -22,20 +22,31 @@
             .subtitulocatalogo1 {
                 font-family: $fonttitle;
                 width:5rem;
+                color: $colorfont;
             }
 
             .imgcatalogo {
                 width: 20rem;
                 border-style: double;
-                border-width: 1rem;
+                border-width: 0.9rem;
+                border-radius: 0.2rem;
                 margin-left: 2rem;
-                border-color: rgb(47, 63, 99);
+                border-color: rgb(3, 27, 84);
                 display: flex;
                 justify-content: center;
+                
 
             }
 
-            button {}
+            button {
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color:$colorfont;
+                border-width: 5rem;
+                border-color: $colorfont;
+                border-radius: 5rem;
+
+
+            }
         }
 
         .subtitulocatalogo2 {
@@ -43,6 +54,8 @@
             font-family: $fonttitle;
             width: 5rem;
             left: 8rem;
+            color: $colorfont;
+
 
         }
 

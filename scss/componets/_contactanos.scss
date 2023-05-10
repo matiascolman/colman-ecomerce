@@ -10,7 +10,6 @@
         padding: -0.5rem;
 
         main{
-
             .titulo{
 
                 font-family: $fonttitle;
@@ -28,46 +27,93 @@
 
                 
             }
+            
 
-            .container-form{
-                display: flex;
-                justify-content: center;
-                label {
-                    
-                }
-                input{
+            
+            div{
 
-                }
-                label {
+                .container-form{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    width: 30rem;
+                    margin-top: 3rem;
+                    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                    color: black;
+                    label {
+                        
+                    }
+                    input{
+    
+                    }
+                    label {
+                        
+                    }
+                    input{
+                        
+                    }
+                    label {
+                        
+                    }
+                    input{
+                        
+                    }
+                    label {
+                        
+                    }
+                    input{
+                        
+                    }
                     
+                    textarea{
+    
+                    }
+                    input{
+    
+                    }
+    
                 }
-                input{
-                    
-                }
-                label {
-                    
-                }
-                input{
-                    
-                }
-                label {
-                    
-                }
-                input{
-                    
-                }
-                
-                textarea{
 
-                }
-                input{
-
-                }
 
             }
+
+            section{
+
+                .container-maps{
+
+                    display: flex;
+                    justify-content: center;
+                    width: 22rem;
+                    height: 19rem;
+                    margin: 10rem;
+                    border-color: black;
+                
+
+
+                }
+
+                .fontdirection{
+                    
+                    color: black;
+                    font-family: 'Times New Roman', Times, serif;
+                    h3{
+
+                    }
+
+                    h3{
+                        
+                    }
+
+                    h3{
+                        
+                    }
+                }
+            }
+
+
         }
 
     }
 }
 
-/* fin de nosotros */
+/* fin de conctactanos */
