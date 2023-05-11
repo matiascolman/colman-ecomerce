@@ -298,7 +298,6 @@ h3 {
     .banner-flex {
         display: flex;
         justify-content: center;
-        background-color: ;
     }
     .container-flex {
         display: flex;
@@ -309,11 +308,12 @@ h3 {
     
     }
 
+    /* nav */
+
 @media(max-width: 992px){
     .banner-flex {
         display: flex;
         justify-content: center;
-        background-color: 
         
     }
     .container-flex {
@@ -327,7 +327,7 @@ h3 {
         .banner-flex {
             display: flex;
             justify-content: center;
-            background-color: ;
+
             
         }
         .container-flex {
@@ -360,7 +360,6 @@ h3 {
     .container-flex {
         display: flex;
         justify-content: center;
-        background-color: ;
     }
     
 
@@ -377,7 +376,6 @@ h3 {
     .container-flex {
         display: flex;
         justify-content: center;
-        background-color: ;
     }
     
 
@@ -400,6 +398,7 @@ h3 {
     
 
 }
+/* fin nav */
 
 /* Responsive Nosotros */
 

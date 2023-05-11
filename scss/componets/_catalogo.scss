@@ -1,7 +1,7 @@
 /* comienzo del catalogo */
 .titulo {
     font-family: $fonttitle;
-    font-size: 1.875;
+    font-size:$sizefonttitle;
     text-align: center;
     padding: 5rem;
 }
@@ -13,15 +13,14 @@
     justify-content: center;
 
     .galeria {
-
         position: relative;
-        /*         left: 150px; */
+        justify-content: center;
 
         div {
 
             .subtitulocatalogo1 {
                 font-family: $fonttitle;
-                width:5rem;
+                width: 5rem;
                 color: $colorfont;
             }
 
@@ -34,16 +33,17 @@
                 border-color: rgb(3, 27, 84);
                 display: flex;
                 justify-content: center;
-                
+
 
             }
 
             button {
-                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-                color:$colorfont;
+                font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+                color: $colorfont;
                 border-width: 5rem;
                 border-color: $colorfont;
                 border-radius: 5rem;
+                text-align: center;
 
 
             }
@@ -60,6 +60,7 @@
         }
 
     }
+
 
 
 }
