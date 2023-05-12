@@ -38,13 +38,21 @@
 
         }
 
-        .contaner{
+        .container{
 
             display: flex;
             justify-content: center;
             padding: 2rem;
 
+            img {
+                width: 60%;
+                margin: auto;
+            }
         }
+    }
+
+    @include responsive {
+
     }
 
     
