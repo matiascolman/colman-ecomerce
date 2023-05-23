@@ -103,6 +103,9 @@ header .container-flex div nav .links a:hover {
     position: relative;
     justify-content: center;
   }
+  .main-flex .galeria .imgcatalogo {
+    width: 100px;
+  }
   .main-flex .galeria div {
     display: flex;
     flex-direction: column;
@@ -275,6 +278,7 @@ button {
 .gradientes .main-container section .fontdirection {
   margin-top: 3rem;
   display: grid;
+  margin: auto;
   grid-template-rows: 50px repeat(3);
   grid-template-columns: 50px repeat(3);
 }
