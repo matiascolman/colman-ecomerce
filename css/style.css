@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
 /* variables */
@@ -38,10 +39,19 @@ header .container-flex div nav .links a:hover {
   transition: 0.2s;
 }
 @media only screen and (max-width: 1200px) {
+  header div .banner-flex {
+    flex-direction: column;
+    align-items: center;
+  }
   header div .banner-flex div a {
     display: block;
     width: 80%;
     margin: auto;
+  }
+  header div .banner-flex div a .banner-uno {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
   }
 }
 
@@ -68,20 +78,21 @@ header .container-flex div nav .links a:hover {
   flex-direction: column;
   align-items: center;
 }
-.main-flex .galeria div .subtitulocatalogo1 {
+.main-flex .galeria div .subtitulocatalogo1,
+.main-flex .galeria div .subtitulocatalogo2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   width: 5rem;
   color: black;
 }
 .main-flex .galeria div .imgcatalogo {
-  width: 20rem;
+  max-width: 20rem;
+  width: 100%;
+  height: auto;
   border-style: double;
   border-width: 0.9rem;
   border-radius: 0.2rem;
   margin-left: 2rem;
   border-color: rgb(3, 27, 84);
-  display: flex;
-  justify-content: center;
 }
 .main-flex .galeria div button {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
@@ -92,27 +103,23 @@ header .container-flex div nav .links a:hover {
   text-align: center;
   margin: 2rem auto;
 }
-.main-flex .galeria .subtitulocatalogo2 {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  width: 5rem;
-  left: 8rem;
-  color: black;
-}
 @media only screen and (max-width: 1200px) {
   .main-flex .galeria {
     position: relative;
     justify-content: center;
-  }
-  .main-flex .galeria .imgcatalogo {
-    width: 100px;
   }
   .main-flex .galeria div {
     display: flex;
     flex-direction: column;
     align-items: center;
   }
+  .main-flex .galeria div .imgcatalogo {
+    max-width: 200px;
+    /* Ajusta el valor según tus necesidades */
+  }
   .main-flex .galeria div button {
-    margin: 2rem auto;
+    margin: 0.5rem auto;
+    /* Ajusta el valor según tus necesidades */
   }
 }
 
@@ -271,18 +278,31 @@ button {
   color: black;
 }
 .gradientes .main-container section .container-maps {
-  display: flex;
-  justify-content: center;
-  margin-top: 3rem;
+  margin-top: 2rem;
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 75%;
+  z-index: 0;
+}
+.gradientes .main-container section .container-maps iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: 0;
 }
 .gradientes .main-container section .fontdirection {
-  margin-top: 3rem;
+  margin-top: 5rem;
   display: grid;
   margin: auto;
   grid-template-rows: 50px repeat(3);
   grid-template-columns: 50px repeat(3);
+  z-index: 1;
 }
 @media only screen and (max-width: 1200px) {
+  .gradientes .main-container section .container-maps {
+    padding-bottom: 56.25%;
+  }
   .gradientes .main-container main div .container-form {
     width: 80%;
     margin: auto;

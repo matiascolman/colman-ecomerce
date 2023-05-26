@@ -66,10 +66,17 @@ header {
         div {
 
             .banner-flex {
+                flex-direction: column;
+                align-items: center;
 
                 div {
 
                     a {
+                        .banner-uno {
+                            width: 100%;
+                            max-width: 300px;
+                            height: auto;
+                        }
                         display: block;
                         width: 80%;
                         margin: auto;

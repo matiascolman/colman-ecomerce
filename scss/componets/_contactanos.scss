@@ -37,23 +37,30 @@
         section{
 
             .container-maps {
-
-                display: flex;
-                justify-content: center;
-                margin-top: 3rem;
+                margin-top: 2rem;
+                position: relative;
+                width: 100%;
+                height: 0;
+                padding-bottom: 75%;
+                z-index: 0;
         
                 iframe{
+                    position: absolute;
+                    width: 100%;
+                    height: 100%;
+                    border: 0;
 
                 }
 
             }
 
             .fontdirection{
-                margin-top: 3rem;
+                margin-top: 5rem;
                 display: grid;
                 margin: auto;
                 grid-template-rows:50px repeat(3) ;
                 grid-template-columns:50px repeat(3) ;
+                z-index: 1;
             
 
                 h3{
@@ -69,6 +76,12 @@
 
     @include responsive {
         .main-container {
+
+            section {
+                .container-maps {
+                    padding-bottom: 56.25%; // Ajusta la proporción del aspecto para dispositivos más pequeños
+                }
+            }
             main {
                 div {
                     .container-form {
